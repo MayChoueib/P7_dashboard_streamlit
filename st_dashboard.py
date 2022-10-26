@@ -350,8 +350,8 @@ if num != '<Select>':
                         font_size=15,
                         title_font_color="blue")
 
-                    c1, c2 = st.columns(2)
-                    st.plotly_chart(fig, use_container_width=False)
+                    c1, c2 = st.columns(2)                    
                     with c1:
+                        st.plotly_chart(fig, use_container_width=False)
                         nb = st.expander("Note")
                         nb.write("La taille des points correspond aux scores des clients (voir la jauge du statut de la demande pour comprendre les scores")
