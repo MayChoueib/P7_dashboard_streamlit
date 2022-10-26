@@ -15,7 +15,7 @@ from urllib.parse import urljoin
 # local
 # API_URL = "http://localhost:5555/"
 # link heroku:
-API_URL = "https://mc-credit-score-2.herokuapp.com/"
+API_URL = "https://maychoueib-credit-score-api.herokuapp.com/"
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
